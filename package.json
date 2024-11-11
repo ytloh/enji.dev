@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "preinstall": "npx pnpm@7.22.0 install -g && pnpm install",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
@@ -13,5 +14,5 @@
     "prettier-plugin-tailwindcss": "^0.2.1",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@8.15.8"
+  "packageManager": "pnpm@7.22.0"
 }
